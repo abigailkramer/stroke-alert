@@ -6,4 +6,4 @@ scipy
 streamlit
 PySimpleGUI
 streamlit_webrtc
-python-tk
+tk
