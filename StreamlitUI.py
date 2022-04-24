@@ -2,7 +2,7 @@
 # Update! Make sure to comment out cv2.imshow commands in strokedet_allfun.py and then this will work! To increase the amount of time that the output is displayed, we can increase the number of seconds in the time.sleep() command
 import streamlit as st
 import pandas as pd
-# import PySimpleGUI as sg
+import PySimpleGUI as sg
 import mediapipe as mp
 import numpy as np
 import time
@@ -13,7 +13,7 @@ from strokedet_allfun import strokedet
 from strokedet_allfun import setbase
 from streamlit_webrtc import webrtc_streamer
 import av
-# import cv2
+import cv2
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
